@@ -1,0 +1,106 @@
+body {
+  width: 60%;
+  margin: 150px auto;
+  text-align: center;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.geekgeneration.fr%2Fwp-content%2Fuploads%2F2019%2F12%2FArmored-Warfare-Last-Patriot.jpg&f=1&nofb=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: blanchedalmond solid 2px;
+  max-width: 100%;
+  
+}
+header {
+  position: relative;
+}
+
+section {
+  display: block;
+  margin: 0;
+  height: 100%;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: blanchedalmond solid 2px;;
+}
+
+section .arra {
+  font-size: 1.5em;
+  display: inline-block;
+  width: 100%;
+  overflow-wrap: break-word;
+  margin: 0;
+  text-align: left;
+}
+
+h1 {
+  background-color: black;
+  margin: -15px 0 0 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  border-bottom: 0.5px solid blanchedalmond;
+}
+
+p,
+h1,
+label {
+  color: blanchedalmond;
+}
+
+.prikaziPoeni,
+.igrani_partii {
+  font-size: 3.5em;
+  font-weight: 800;
+}
+
+#cont {
+  padding-top: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* height: 400px; */
+  /* position: relative; */
+}
+
+#tenkovi-dropdown {
+  display: none;
+}
+
+#reset {
+  margin-bottom: 25px;
+}
+
+
+footer {
+  background-color: black;
+  padding: 5px;
+  border-top: 0.5px solid blanchedalmond;
+}
+
+@media screen and (max-width: 1024px) {
+ body {
+  background-position: center;
+  width: 90%;
+ }
+
+ label[for=poeni] {
+   font-size: 2em;
+   display: block;
+   margin-bottom: .5em;
+ }
+
+ #cont p {
+   font-size: 2.5em;
+ }
+}
+
+@media screen and (max-width: 440px) {
+  body {
+    background-position: center;
+    width: 90%;
+  }
+  label[for=poeni] {
+   font-size: 2em;
+   display: block;
+   margin-bottom: .5em;
+ }
+ #cont p {
+  font-size: 2em;
+}
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BC Counter</title>
+  </head>
+  <body>
+    <header>
+      <p id="demo"></p>      
+      <h1>Battle Coin Counter - Wars of the Past</h1>
+      <form action="" id="cont">
+        <label for="poeni">Enter BC from last battle</label>
+        <input type="text" name="poeni" id="poeni" onfocus="this.value=''" />
+        <select name="" id="tenkovi-dropdown"></select>
+        <input type="button" value="Add Points" id="vnesiPoeni" />
+        <p class="prikaziPoeni">Earned points : <span id="ppS"></span></p>
+        <p class="igrani_partii">Played Games : <span id="ppS2"></span></p>
+        
+        <input type="button" value="Reset points" id="reset">
+      </form>
+    </header>
+    <section>  
+      <p class="arra"></p>    
+    </section>
+    <footer>
+      <p>Made By Don Makedon | ver 0.1 </p>
+    </footer>
+    <script src="tenkovi.json"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
