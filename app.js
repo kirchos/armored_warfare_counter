@@ -71,6 +71,7 @@ var timeoutId = null;
 var ms = 0;
 var sec = 0;
 var min = 0;
+var hr = 0;
  
 /* function to start stopwatch */
 function start(flag) {
@@ -82,6 +83,7 @@ function start(flag) {
         ms = parseInt(ms);
         sec = parseInt(sec);
         min = parseInt(min);
+        hr = parseInt(hr)
  
         ms++;
  
@@ -93,6 +95,10 @@ function start(flag) {
             min = min + 1;
             sec = 0;
         }
+        if(min == 60){
+          hr = hr + 1;
+          min = 0;
+        }
         if (ms < 10) {
             ms = '0' + ms;
         }
@@ -102,9 +108,12 @@ function start(flag) {
         if (min < 10) {
             min = '0' + min;
         }
+        if (hr < 10){
+          hr = '0' + hr
+        }
  
-        stopwatch.innerHTML = min + ':' + sec + ':' + ms;
- 
+        stopwatch.innerHTML = hr + ':' + min + ':' + sec ;
+        // + ':' + ms
         // calling start() function recursivly to continue stopwatch
         start();
  
