@@ -52,19 +52,31 @@ label {
 }
 
 #stopwatch-container {
+  border-top: blanchedalmond solid 1px;
   padding: 10px auto;
   font-size: 2em;
   color: blanchedalmond;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+#stopwatch-container > p {
+  /* display: inline; */
+  margin: 0;
+  padding: 15px 0;
+}
+
 #stopwatch-container  > button {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 #stopwatch {
-  padding: 10px;
+  margin: 0 auto;
+  padding: 15px 0px ;
   font-size: 2em;
+  border: blanchedalmond solid 1px;
+  border-radius: 10px;
+  width: 250px;
+  background: #000;
 }
 
 #cont {
