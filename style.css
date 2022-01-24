@@ -51,6 +51,21 @@ label {
   font-weight: 800;
 }
 
+#stopwatch-container {
+  padding: 10px auto;
+  font-size: 2em;
+  color: blanchedalmond;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#stopwatch-container  > button {
+  margin-bottom: 20px;
+}
+
+#stopwatch {
+  padding: 10px;
+}
+
 #cont {
   padding-top: 25px;
   background-color: rgba(0, 0, 0, 0.6);
