@@ -2,6 +2,7 @@ body {
   text-align: center;
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.geekgeneration.fr%2Fwp-content%2Fuploads%2F2019%2F12%2FArmored-Warfare-Last-Patriot.jpg&f=1&nofb=1");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   color: blanchedalmond;
 }
@@ -76,7 +77,7 @@ footer {
 }
 
 #stopwatch-container > p {
-  /* display: inline; */
+  
   margin: 0;
   padding: 25px 0 15px 0;
   font-size: 1.5em;
@@ -96,18 +97,38 @@ footer {
     padding: 5px;
   }
 
+  @media only screen and (max-width: 768px){
+
+    h1 {
+      font-size: 1.4em;
+    }
+
+    #cont > p, 
+    #cont > span {
+      font-size: 2.2em;
+    }
+
+    label[for='poeni'] {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
 
   @media only screen and (max-width: 1256px) {
+ 
     #wrap {
       margin: 250px auto;
       width: 90%;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+
     }
 
     h1 {
       grid-column: 1 / 4;
       grid-row: 1;
+      
     }
 
     header {
@@ -118,6 +139,8 @@ footer {
     header form p{
       font-size: 1.9em;      
     }
+
+    
 
     #vnesiPoeni {
       margin-top: 15px;
