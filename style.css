@@ -118,7 +118,7 @@ footer {
   @media only screen and (max-width: 1256px) {
  
     #wrap {
-      margin: 250px auto;
+      margin: 100px auto;
       width: 90%;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
