@@ -59,6 +59,32 @@ footer {
   font-weight: 800;
 }
 
+label[for='poeni'] {
+  display: block;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+
+input[name="poeni"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+input[id='vnesiPoeni'] {
+  padding: 5px 0;
+  width: 60%;
+  color: rgb(39, 19, 1);
+  border: solid 3px rgb(10, 9, 6);
+  font-weight: bold;
+}
+
+input[id='vnesiPoeni']:hover {
+  background-color: darksalmon;
+}
+
 #stopwatch {
   margin: 25px auto;
   padding: 15px 0px;
@@ -84,7 +110,7 @@ footer {
 }
 
 #cont {
-  padding-top: 25px;
+  
   background-color: rgba(0, 0, 0, 0.6);
 }
 #reset {
@@ -140,11 +166,11 @@ footer {
       font-size: 1.9em;      
     }
 
-    
-
-    #vnesiPoeni {
-      margin-top: 15px;
+    #cont > input[id='vnesiPoeni'] {
+      margin: 0;
     }
+
+    
     
      #stopwatch-container {
       grid-column: 1 / 4;
