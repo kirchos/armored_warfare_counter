@@ -67,7 +67,7 @@ label[for='poeni'] {
 
 input[name="poeni"] {
   display: block;
-  width: 60%;
+  width: 37.5%;
   margin: 0 auto;
   padding: 5px 0;
   margin-bottom: 10px;
@@ -75,9 +75,9 @@ input[name="poeni"] {
 
 input[id='vnesiPoeni'] {
   padding: 5px 0;
-  width: 60%;
+  width: 37.5%;
   color: rgb(39, 19, 1);
-  border: solid 3px rgb(10, 9, 6);
+  border: none;
   font-weight: bold;
 }
 
