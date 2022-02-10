@@ -36,6 +36,19 @@ header {
   grid-row: 2;
 }
 
+.ara-wrap {
+  border-top: solid 1px blanchedalmond;
+  display: block;
+  align-content: center;
+}
+.arra {
+  display: inline-block;
+  text-align: left;
+  width: 550px;
+  overflow-wrap: break-word;
+  
+  font-size: 1.2em;
+}
 
 footer {
   grid-column: 1 / 3;
